@@ -28,8 +28,8 @@ warnings.filterwarnings("ignore")
 import seaborn as sns; sns.set()
 pictureNames = [f for f in listdir('./dataset/stimuli/') \
     if isfile(join('./dataset/stimuli/', f)) if not f.startswith('Thumb')]
-rawData_eyelink = [f for f in listdir('./dataset/raw/') \
-    if isfile(join('./dataset/raw/', f)) if f.endswith('.asc')]
+# rawData_eyelink = [f for f in listdir('./dataset/raw/') \
+#     if isfile(join('./dataset/raw/', f)) if f.endswith('.asc')]
 
 
         
